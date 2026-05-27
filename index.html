@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Agro Marinković je poljoprivredna apoteka koja nudi semena, đubriva, zaštitu bilja, alat, opremu za navodnjavanje i savetovanje za poljoprivrednike.">
+    <meta name="keywords" content="poljoprivredna apoteka, Agro Marinković, semena, đubriva, zaštita bilja, alat, navodnjavanje">
+    <meta name="author" content="Jovana Marinkovic">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Marinković</title>
+    <link rel="stylesheet" href="css/stil.css">
+</head>
+<body>
+    <header class="zaglavlje">
+        <div class="omotac navigacija">
+            <a href="index.html" class="logo">
+                <img src="slike/logo.svg" alt="Logo poljoprivredne apoteke Agro Marinković">
+                <span>Agro Marinković</span>
+            </a>
+
+            <button class="dugme-meni" id="dugmeMeni">☰</button>
+
+            <nav class="meni" id="meni">
+                <a href="index.html" class="aktivna">Početna</a>
+                <a href="o-nama.html">O nama</a>
+
+                <div class="padajuci-meni">
+                    <button class="padajuci-dugme" type="button">Proizvodi ▾</button>
+
+                    <div class="padajuci-sadrzaj">
+                        <a href="proizvodi.html#semena">Semena</a>
+                        <a href="proizvodi.html#djubriva">Đubriva</a>
+                        <a href="proizvodi.html#zastita">Zaštita bilja</a>
+                        <a href="proizvodi.html#navodnjavanje">Navodnjavanje</a>
+                    </div>
+                </div>
+
+                <a href="kontakt.html">Kontakt</a>
+            </nav>
+
+            <div class="podesavanja">
+                <button id="manjiFont">A-</button>
+                <button id="veciFont">A+</button>
+                <button id="promenaTeme">Tema</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="pocetna">
+            <div class="omotac pocetna-sadrzaj">
+                <div>
+                    <p class="oznaka">Poljoprivredna apoteka</p>
+                    <h1>Pouzdana podrška za zdrav usev i sigurnu sezonu</h1>
+                    <p>Agro Marinković je lokalna poljoprivredna apoteka koja poljoprivrednicima nudi kvalitetne proizvode, praktične savete i podršku tokom cele godine.</p>
+
+                    <div class="dugmad">
+                        <a href="proizvodi.html" class="dugme primarno">Pogledaj proizvode</a>
+                        <a href="kontakt.html" class="dugme sekundarno">Pošalji upit</a>
+                    </div>
+                </div>
+
+                <img src="slike/pocetna.svg" alt="Ilustracija poljoprivrednog polja">
+            </div>
+        </section>
+
+        <section class="sekcija">
+            <div class="omotac">
+                <div class="naslov-sekcije">
+                    <h2>Šta nudimo</h2>
+                    <p>Na jednom mestu možeš pronaći osnovne proizvode za setvu, negu biljaka, zaštitu useva i rad na gazdinstvu.</p>
+                </div>
+
+                <div class="tri-kolone">
+                    <article class="kartica">
+                        <img src="slike/semena.svg" alt="Semena">
+                        <div>
+                            <h3>Semena</h3>
+                            <p>Povrtarsko i ratarsko seme za različite uslove proizvodnje.</p>
+                        </div>
+                    </article>
+
+                    <article class="kartica">
+                        <img src="slike/djubriva.svg" alt="Đubriva">
+                        <div>
+                            <h3>Đubriva</h3>
+                            <p>Mineralna i organska đubriva za pravilnu ishranu zemljišta i biljaka.</p>
+                        </div>
+                    </article>
+
+                    <article class="kartica">
+                        <img src="slike/zastita.svg" alt="Zaštita bilja">
+                        <div>
+                            <h3>Zaštita bilja</h3>
+                            <p>Preparati za zaštitu useva uz savetovanje o pravilnoj primeni.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="sekcija svetla">
+            <div class="omotac dve-kolone">
+                <div>
+                    <h2>Zašto baš Agro Marinković?</h2>
+                    <p>Naš cilj je da kupac ne dobije samo proizvod, već i jasnu preporuku za njegovu upotrebu. Zbog toga je sajt osmišljen tako da korisnik brzo pronađe ponudu, pročita osnovne informacije i pošalje upit.</p>
+
+                    <ul class="lista">
+                        <li>pregledna ponuda proizvoda</li>
+                        <li>kontakt forma sa proverom unosa</li>
+                        <li>prilagođavanje veličine slova</li>
+                        <li>svetla i tamna tema</li>
+                        <li>responzivan prikaz za telefon i računar</li>
+                    </ul>
+                </div>
+
+               <div class="slajder">
+    <img src="slike/slika2.webp" alt="Njiva" class="slajd aktivan">
+    <img src="slike/slika3.jpg" alt="Prskanje" class="slajd">
+    <img src="slike/slika4.jpg" alt="Poljoprivredni radovi" class="slajd">
+
+    <button id="prethodnaSlika" class="strelica levo">‹</button>
+    <button id="sledecaSlika" class="strelica desno">›</button>
+</div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="podnozje">
+        <div class="omotac podnozje-mreza">
+            <div>
+                <h3>Agro Marinković</h3>
+                <p>Poljoprivredna apoteka za semena, đubriva, zaštitu bilja i savetovanje.</p>
+            </div>
+
+            <div>
+                <h3>Stranice</h3>
+                <a href="index.html">Početna</a>
+                <a href="o-nama.html">O nama</a>
+                <a href="proizvodi.html">Proizvodi</a>
+                <a href="kontakt.html">Kontakt</a>
+            </div>
+
+            <div>
+                <h3>Kontakt</h3>
+                <p>Telefon: 060/123-4567</p>
+                <p>Email: kontakt@agromarinkovic.rs</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/skripta.js"></script>
+</body>
+</html>

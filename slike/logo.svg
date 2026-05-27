@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="220" viewBox="0 0 220 220">
+    <circle cx="110" cy="110" r="100" fill="#dcefcf"/>
+    <path d="M55 135 C92 130 130 96 154 48 C165 106 139 160 84 166 C69 168 58 154 55 135Z" fill="#3f7d20"/>
+    <path d="M82 148 C104 111 128 82 154 48" stroke="#255214" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <text x="110" y="195" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#255214">AGRO</text>
+</svg>

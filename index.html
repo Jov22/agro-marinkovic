@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="sr">
+<html lang="sr" vocab="https://schema.org/">
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Agro Marinković je poljoprivredna apoteka koja nudi semena, đubriva, zaštitu bilja, alat, opremu za navodnjavanje i savetovanje za poljoprivrednike.">
@@ -9,12 +9,12 @@
     <title>Agro Marinković</title>
     <link rel="stylesheet" href="css/stil.css">
 </head>
-<body>
+<body typeof="Organization">
     <header class="zaglavlje">
         <div class="omotac navigacija">
             <a href="index.html" class="logo">
                 <img src="slike/logo.png" alt="Logo poljoprivredne apoteke Agro Marinković">
-                <span>Agro Marinković</span>
+               <span property="name">Agro Marinković</span>
             </a>
 
             <button class="dugme-meni" id="dugmeMeni">☰</button>
@@ -51,7 +51,11 @@
                 <div>
                     <p class="oznaka">Poljoprivredna apoteka</p>
                     <h1>Pouzdana podrška za zdrav usev i sigurnu sezonu</h1>
-                    <p>Agro Marinković je lokalna poljoprivredna apoteka koja poljoprivrednicima nudi kvalitetne proizvode, praktične savete i podršku tokom cele godine.</p>
+                    <p property="description">
+    Agro Marinković je lokalna poljoprivredna apoteka koja poljoprivrednicima
+    nudi kvalitetne proizvode, praktične savete i podršku tokom cele godine.
+                    </p>
+            
 
                     <div class="dugmad">
                         <a href="proizvodi.html" class="dugme primarno">Pogledaj proizvode</a>

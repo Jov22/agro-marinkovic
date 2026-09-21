@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Kontakt strana poljoprivredne apoteke Agro Marinković sa formom, mapom, radnim vremenom i podacima za kontakt.">
+    <meta name="keywords" content="Agro Marinković, kontakt, poljoprivredna apoteka, forma, mapa">
+    <meta name="author" content="Jovana Marinkovic">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Agro Marinković</title>
+    <link rel="stylesheet" href="css/stil.css">
+</head>
+<body>
+    <header class="zaglavlje">
+        <div class="omotac navigacija">
+            <a href="index.html" class="logo">
+                <img src="slike/logo.png" alt="Logo poljoprivredne apoteke Agro Marinković">
+                <span>Agro Marinković</span>
+            </a>
+
+            <button class="dugme-meni" id="dugmeMeni">☰</button>
+
+            <nav class="meni" id="meni">
+                <a href="index.html">Početna</a>
+                <a href="o-nama.html">O nama</a>
+
+                <div class="padajuci-meni">
+                    <button class="padajuci-dugme" type="button">Proizvodi ▾</button>
+
+                    <div class="padajuci-sadrzaj">
+                        <a href="proizvodi.html#semena">Semena</a>
+                        <a href="proizvodi.html#djubriva">Đubriva</a>
+                        <a href="proizvodi.html#zastita">Zaštita bilja</a>
+                        <a href="proizvodi.html#navodnjavanje">Navodnjavanje</a>
+                    </div>
+                </div>
+
+                <a href="kontakt.html" class="aktivna">Kontakt</a>
+            </nav>
+
+            <div class="podesavanja">
+                <button id="manjiFont">A-</button>
+                <button id="veciFont">A+</button>
+                <button id="promenaTeme">Tema</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="sekcija">
+            <div class="omotac">
+                <div class="naslov-sekcije">
+                    <h1>Kontakt</h1>
+                    <p>Pošalji upit za dostupnost proizvoda, savetovanje ili dodatne informacije.</p>
+                </div>
+
+                <div class="dve-kolone">
+                    <form class="forma" id="kontaktForma">
+                        <div class="polje">
+                            <label for="ime">Ime i prezime</label>
+                            <input type="text" id="ime" name="ime">
+                            <span class="greska" id="greskaIme"></span>
+                        </div>
+
+                        <div class="polje">
+                            <label for="email">Email adresa</label>
+                            <input type="email" id="email" name="email">
+                            <span class="greska" id="greskaEmail"></span>
+                        </div>
+
+                        <div class="polje">
+                            <label for="telefon">Telefon</label>
+                            <input type="text" id="telefon" name="telefon">
+                            <span class="greska" id="greskaTelefon"></span>
+                        </div>
+
+                        <div class="polje">
+                            <label for="tip">Tip upita</label>
+                            <select id="tip" name="tip">
+                                <option value="">Izaberi tip upita</option>
+                                <option value="Semena">Semena</option>
+                                <option value="Đubriva">Đubriva</option>
+                                <option value="Zaštita bilja">Zaštita bilja</option>
+                                <option value="Oprema">Oprema</option>
+                                <option value="Savetovanje">Savetovanje</option>
+                            </select>
+                            <span class="greska" id="greskaTip"></span>
+                        </div>
+
+                        <div class="polje">
+                            <label for="poruka">Poruka</label>
+                            <textarea id="poruka" name="poruka" rows="5"></textarea>
+                            <span class="greska" id="greskaPoruka"></span>
+                        </div>
+
+                        <button type="submit" class="dugme primarno">Pošalji poruku</button>
+                        <p class="uspeh" id="uspeh">Poruka je uspešno sačuvana u pregledaču.</p>
+                    </form>
+
+                   <div class="panel">
+    <h2>Podaci</h2>
+    <p><strong>Adresa:</strong> Ilije Preradovića 40, Banatsko Karađorđevo</p>
+    <p><strong>Telefon:</strong> 060/123-4567</p>
+    <p><strong>Email:</strong> kontakt@agromarinkovic.rs</p>
+    <p><strong>Radno vreme:</strong> ponedeljak - petak, 08:00 - 18:00</p>
+
+    <iframe class="ugradjeni-okvir" src="https://www.google.com/maps?q=Ilije%20Preradovi%C4%87a%2040%2C%20Banatsko%20Kara%C4%91or%C4%91evo&output=embed" title="Mapa lokacije Agro Marinković"></iframe>
+</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sekcija svetla">
+            <div class="omotac">
+                <div class="naslov-sekcije">
+                    <h2>Kako se šalje upit?</h2>
+                    
+                </div>
+
+                <div class="tri-kolone">
+                    <article class="kartica">
+                        <div>
+                            <h3>1. Unos podataka</h3>
+                            <p>Korisnik unosi ime, email adresu, telefon i bira kategoriju upita.</p>
+                        </div>
+                    </article>
+
+                    <article class="kartica">
+                        <div>
+                            <h3>2. Provera forme</h3>
+                            <p>Automatska provera ispravnosti unetih podataka i prikazivanje obaveštenja ako je potrebno dopuniti ili ispraviti formu.</p>
+                        </div>
+                    </article>
+
+                    <article class="kartica">
+                        <div>
+                            <h3>3. Čuvanje upita</h3>
+                            <p>Ispravno poslata poruka čuva se u lokalnom skladištu pregledača.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="podnozje">
+        <div class="omotac podnozje-mreza">
+            <div>
+                <h3>Agro Marinković</h3>
+                <p>Poljoprivredna apoteka za semena, đubriva, zaštitu bilja i savetovanje.</p>
+            </div>
+
+            <div>
+                <h3>Stranice</h3>
+                <a href="index.html">Početna</a>
+                <a href="o-nama.html">O nama</a>
+                <a href="proizvodi.html">Proizvodi</a>
+                <a href="kontakt.html">Kontakt</a>
+            </div>
+
+            <div>
+                <h3>Kontakt</h3>
+                <p>Telefon: 060/123-4567</p>
+                <p>Email: kontakt@agromarinkovic.rs</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/skripta.js"></script>
+</body>
+</html>

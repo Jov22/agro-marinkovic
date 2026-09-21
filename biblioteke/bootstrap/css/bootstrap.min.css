@@ -1,0 +1,144 @@
+.container {
+    width: min(1120px, 92%);
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col-12,
+.col-md-6,
+.col-lg-4 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        width: 33.333%;
+    }
+}
+
+.card {
+    background: var(--bela);
+    border-radius: 24px;
+    box-shadow: var(--senka);
+    overflow: hidden;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 22px;
+}
+
+.card-title {
+    margin-top: 0;
+    color: var(--tamnozelena);
+}
+
+.card-text {
+    margin-bottom: 18px;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-weight: 800;
+    border: 0;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
+
+.btn-success {
+    background: var(--zelena);
+    color: white;
+}
+
+.btn-outline-success {
+    background: var(--svetlozelena);
+    color: var(--tamnozelena);
+}
+
+.badge {
+    display: inline-block;
+    background: var(--zelena);
+    color: white;
+    padding: 6px 10px;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.alert {
+    padding: 16px 18px;
+    border-radius: 18px;
+    background: var(--svetlozelena);
+    color: var(--tamnozelena);
+    margin-bottom: 28px;
+    font-weight: 700;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    background: var(--bela);
+    border-radius: 24px;
+    box-shadow: var(--senka);
+}
+
+.table th,
+.table td {
+    padding: 15px;
+    border-bottom: 1px solid rgba(63, 125, 32, 0.18);
+    text-align: left;
+}
+
+.table th {
+    background: var(--zelena);
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-4 {
+    margin-top: 32px;
+}
+
+.mb-4 {
+    margin-bottom: 24px;
+}
